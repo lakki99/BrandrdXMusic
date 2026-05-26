@@ -92,8 +92,8 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
                 profile_path=photo,
             )
         
-            caption = f"**#New_Member_Left**\n\n**๏** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**๏ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
-            button_text = "๏ ᴠɪᴇᴡ ᴜsᴇʀ ๏"
+            caption = f"**#Grouplo_okadu_thagadu**\n\n**๏** {user.mention} **𝗚𝗿𝗼𝘂𝗽 𝗡𝘂𝗻𝗱𝗶 𝗠𝗶𝗻𝗴𝗲𝘀𝗮𝗱𝘂 😹**\n➻ **𝗠𝗮𝗹𝗹𝗶 𝗥𝗮𝗮𝗸𝘂 𝗥𝗮 𝗕𝗼𝗸𝗸𝗮 𝗚𝗮 😭🙏**"
+            button_text = "👀 𝗦𝗧𝗔𝗟𝗞 𝗨𝗦𝗘𝗥 😹"
 
             # Generate a deep link to open the user's profile
             deep_link = f"tg://openmessage?user_id={user.id}"
