@@ -49,7 +49,7 @@ async def brah3(app: app, message: Message):
             reply_text,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="๏ ᴊᴏɪɴ ᴠᴄ ๏", url=add_link)],
+                    [InlineKeyboardButton(text="🎧 𝗝𝗢𝗜𝗡 𝗩𝗖", url=add_link)],
                 ]
             ),
         )
@@ -99,7 +99,7 @@ async def search(event):
                     continue
                 result += f"{title}\n{link}\n\n"
             prev_and_next_btns = [
-                Button.inline("▶️Next▶️", data=f"next {start+10} {event.text.split()[1]}")
+                Button.inline("➜ 𝗡𝗘𝗫𝗧", data=f"next {start+10} {event.text.split()[1]}")
             ]
             await msg.edit(result, link_preview=False, buttons=prev_and_next_btns)
             await session.close()
